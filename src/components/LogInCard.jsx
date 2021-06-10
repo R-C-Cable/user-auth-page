@@ -3,6 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {Card, Nav, Button, Container} from "react-bootstrap";
 import "./components.css"
 
+
+
+
+
 function LogInCard() {
   return (
     <Container className="pt-3">
@@ -17,12 +21,14 @@ function LogInCard() {
           </Nav.Item>
         </Nav>
       </Card.Header>
+
+
       <Card.Body>
         <Card.Title>Special title treatment</Card.Title>
         <Card.Text>
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
-        <Button variant="primary">Submit</Button>
+        <Button variant="primary">Sign In</Button>
       </Card.Body>
     </Card>
     </Container>
