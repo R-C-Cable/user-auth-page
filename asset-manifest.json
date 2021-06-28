@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/user-auth-page/static/css/main.b0ed1a00.chunk.css",
-    "main.js": "/user-auth-page/static/js/main.e0acfcf8.chunk.js",
-    "main.js.map": "/user-auth-page/static/js/main.e0acfcf8.chunk.js.map",
+    "main.js": "/user-auth-page/static/js/main.2ceaef5c.chunk.js",
+    "main.js.map": "/user-auth-page/static/js/main.2ceaef5c.chunk.js.map",
     "runtime-main.js": "/user-auth-page/static/js/runtime-main.a2d75027.js",
     "runtime-main.js.map": "/user-auth-page/static/js/runtime-main.a2d75027.js.map",
     "static/css/2.15a7a700.chunk.css": "/user-auth-page/static/css/2.15a7a700.chunk.css",
-    "static/js/2.6f338517.chunk.js": "/user-auth-page/static/js/2.6f338517.chunk.js",
-    "static/js/2.6f338517.chunk.js.map": "/user-auth-page/static/js/2.6f338517.chunk.js.map",
+    "static/js/2.3d241015.chunk.js": "/user-auth-page/static/js/2.3d241015.chunk.js",
+    "static/js/2.3d241015.chunk.js.map": "/user-auth-page/static/js/2.3d241015.chunk.js.map",
     "static/js/3.f6c1d4ee.chunk.js": "/user-auth-page/static/js/3.f6c1d4ee.chunk.js",
     "static/js/3.f6c1d4ee.chunk.js.map": "/user-auth-page/static/js/3.f6c1d4ee.chunk.js.map",
     "index.html": "/user-auth-page/index.html",
     "static/css/2.15a7a700.chunk.css.map": "/user-auth-page/static/css/2.15a7a700.chunk.css.map",
     "static/css/main.b0ed1a00.chunk.css.map": "/user-auth-page/static/css/main.b0ed1a00.chunk.css.map",
-    "static/js/2.6f338517.chunk.js.LICENSE.txt": "/user-auth-page/static/js/2.6f338517.chunk.js.LICENSE.txt"
+    "static/js/2.3d241015.chunk.js.LICENSE.txt": "/user-auth-page/static/js/2.3d241015.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a2d75027.js",
     "static/css/2.15a7a700.chunk.css",
-    "static/js/2.6f338517.chunk.js",
+    "static/js/2.3d241015.chunk.js",
     "static/css/main.b0ed1a00.chunk.css",
-    "static/js/main.e0acfcf8.chunk.js"
+    "static/js/main.2ceaef5c.chunk.js"
   ]
 }
