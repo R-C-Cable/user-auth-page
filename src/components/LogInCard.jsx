@@ -7,6 +7,7 @@ import {
   Container,
   Form,
   Tab,
+  Tabs,
   Row,
   Col,
 } from "react-bootstrap";
@@ -14,7 +15,7 @@ import "./components.css";
 
 function LogInForm() {
   return (
-    <Form>
+    <Form className="m-3">
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
@@ -29,7 +30,7 @@ function LogInForm() {
       </Form.Group>
       <Form.Group controlId="formBasicCheckbox"></Form.Group>
       <Button variant="primary" type="submit">
-        Submit
+        Log In
       </Button>
     </Form>
   );
@@ -37,16 +38,11 @@ function LogInForm() {
 
 function RegisterForm() {
   return (
-    <Form>
+    <Form className="m-3">
       <Row>
-        <Form.Group as={Col} controlId="firstNameGroup">
-          <Form.Label>First Name</Form.Label>
-          <Form.Control type="test" placeholder="First Name" />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="lastNameGroup">
-          <Form.Label>Last Name</Form.Label>
-          <Form.Control type="test" placeholder="Last Name" />
+        <Form.Group as={Col} controlId="NameGroup">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="text" placeholder="Enter Name" />
         </Form.Group>
       </Row>
       <Form.Group controlId="emailGroup">
@@ -63,7 +59,7 @@ function RegisterForm() {
       </Form.Group>
       <Form.Group controlId="submitGroup"></Form.Group>
       <Button variant="primary" type="submit">
-        Submit
+        Register
       </Button>
     </Form>
   );
@@ -97,7 +93,7 @@ function LogInCard() {
                 </Tab.Content>
               </Col>
             </Row>
-          </Tab.Container>
+  </Tab.Container>
         </Card.Body>
       </Card>
     </Container>
